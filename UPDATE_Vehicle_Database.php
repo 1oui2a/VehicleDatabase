@@ -1,4 +1,5 @@
 <?php
+include 'session.php';
 
 // Check if the user has submitted data into the form
 
