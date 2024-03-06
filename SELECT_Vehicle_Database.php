@@ -1,5 +1,5 @@
 <?php
-include 'session.php';
+
 
 //1.  Create a database connection
 $dbhost ="localhost";
