@@ -4,11 +4,11 @@
 -- Set storage engine to InnoDB
 SET default_storage_engine=InnoDB;
 -- Delete database if it currently exists
-DROP DATABASE IF EXISTS VEHICLE_DB;
+DROP DATABASE IF EXISTS VEHICLE_DATABASE;
 -- Create database with utf8mb4 character set and utf8mb4_unicode_ci collation
-CREATE DATABASE VEHICLE_DB CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE VEHICLE_DATABASE CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 -- Use the newly created database
-USE VEHICLE_DB;
+USE VEHICLE_DATABASE;
 
 CREATE TABLE VEHICLES (
  reg_number           CHAR(15) NOT NULL,

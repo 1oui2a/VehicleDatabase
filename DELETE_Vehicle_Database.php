@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "Vehicle_Databse";
+$dbname = "Vehicle_Database";
 
 
 // Create connection
