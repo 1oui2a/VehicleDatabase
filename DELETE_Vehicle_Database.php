@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "Vehicle_Database";
+$dbname = "VEHICLE_DATABASE";
 
 
 // Create connection
@@ -46,7 +46,7 @@ while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
 	<td><?php echo $VEHICLE_MODEL;?></td>
 	
 	<td>
-		<a href ="DELETEDB.php?delete=<?php echo $VEHICLES;?>"onclick="return confirm('Are you sure?');">Delete</a>
+		<a href ="DELETE_Vehicle_Database.php?delete=<?php echo $VEHICLES;?>"onclick="return confirm('Are you sure?');">Delete</a>
 	</td>
 	
 	

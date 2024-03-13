@@ -1,10 +1,10 @@
 <?php
 
 session_start();
-header('location:login_db.php');
+header('location:login.php');
 
 $con=mysqli_connect('localhost','root','');
-mysqli_select_db($con, 'VEHICLE_DB');
+mysqli_select_db($con, 'VEHICLE_DATABASE');
 
 $name = $_POST['user'];
 $pass = $_POST['password'];

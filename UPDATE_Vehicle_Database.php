@@ -13,7 +13,7 @@ if (isset ($_POST ['submit'])){
 			$servername = "localhost";
 			$username = "root";
 			$password = "";
-			$dbname = "Vehicle_Database";
+			$dbname = "VEHICLE_DATABASE";
 
 				// Create connection
 				$conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -23,7 +23,7 @@ if (isset ($_POST ['submit'])){
 								}
 	
 	// Check if that department exists
-	$exists= mysqli_query ($conn,"SELECT * FROM vehicles WHERE REG_NUMBER = '$reg_number' ") or die ("Query could not be completed");
+	$exists= mysqli_query ($conn,"SELECT * FROM VEHICLES WHERE REG_NUMBER = '$reg_number' ") or die ("Query could not be completed");
 	
 	// Update the location field in the DEPT table
 	if (mysqli_num_rows($exists) !=0){
